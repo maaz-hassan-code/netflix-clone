@@ -100,6 +100,7 @@ nav button {
   color: white;
   border-radius: 4px;
   cursor: pointer;
+  border: 1px solid white;
 }
 .btn-red {
   background-color: red;
@@ -281,8 +282,39 @@ nav button {
   background-color: rgba(23, 23, 23, 0.2);
   border: 1px solid rgba(246, 238, 238, 0.5);
 }
+footer {
+  color: #b2b2b2;
+  max-width: 60vw;
+  margin: auto;
+  padding: 34px;
+}
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: #b2b2b2;
+}
+footer a {
+  font-size: 14px;
+  color: #b2b2b2;
+}
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.option {
+  background-color: black;
   color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 5px;
+  margin-top: 20px;
+  width: 145px;
+  font-weight: 400;
+  font-size: 20px;
+  height: 43px;
+}
+.country {
+  margin-top: 10px;
+  font-size: 1rem;
 }

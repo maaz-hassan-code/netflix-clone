@@ -286,8 +286,3 @@ nav button {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   color: white;
 }
-.footer-items {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
